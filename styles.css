@@ -34,7 +34,6 @@ body {
     display: block;
     flex-direction: column;
     gap: 100px;
-    align-items: center;
 }
 
 /* Header */
@@ -92,8 +91,6 @@ header p {
     position: relative;
     overflow: hidden;
     display: block;
-    justify-content: center;
-    align-items: center;
 }
 
 .card-image {
@@ -118,7 +115,6 @@ header p {
     padding: 60px;
     display: block;
     flex-direction: column;
-    justify-content: center;
     /* Center content vertically */
 }
 
