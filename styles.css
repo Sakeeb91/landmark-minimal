@@ -1,0 +1,231 @@
+:root {
+    --bg-color: #F9F7F2;
+    --card-bg: #FFFFFF;
+    --text-main: #1A1A1A;
+    --text-sub: #555555;
+    --accent: #B8860B;
+    /* Dark Goldenrod */
+    --font-heading: 'Melodrama', 'Playfair Display', serif;
+    /* Fallback to Playfair */
+    --font-body: 'Outfit', sans-serif;
+    --spacing-unit: 8px;
+}
+
+/* Reset & Base */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-main);
+    font-family: var(--font-body);
+    font-weight: 300;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    padding: 60px 20px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    align-items: center;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-family: var(--font-heading);
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: var(--text-main);
+    margin-bottom: 10px;
+}
+
+header p {
+    color: var(--text-sub);
+    font-size: 1.1rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+/* Card Component */
+.card {
+    background: var(--card-bg);
+    border-radius: 16px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.03);
+    overflow: hidden;
+    width: 100%;
+    max-width: 1200px;
+    /* Increased max-width for horizontal layout */
+    transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1), box-shadow 0.4s ease;
+    display: flex;
+    flex-direction: row;
+    /* Horizontal layout */
+    align-items: stretch;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.06);
+}
+
+/* Image Section */
+/* Image Section */
+.card-image-container {
+    background-color: var(--card-bg);
+    /* Match card background */
+    width: 50%;
+    /* Half width */
+    min-height: 500px;
+    /* Ensure substantial height */
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    /* Ensure full image is visible (no cropping) */
+    object-position: center;
+    padding: 0;
+    transition: transform 0.6s ease;
+    mix-blend-mode: multiply;
+    /* Blends image background with card background, hiding "negative space" */
+}
+
+.card:hover .card-image {
+    transform: scale(1.05);
+}
+
+/* Content Section */
+.card-content {
+    width: 50%;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* Center content vertically */
+}
+
+/* Title & Meta */
+.card-title {
+    font-family: var(--font-heading);
+    font-size: 3rem;
+    /* Larger title */
+    margin: 0 0 10px 0;
+    color: var(--text-main);
+}
+
+.card-meta {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--accent);
+    margin-bottom: 40px;
+    display: inline-block;
+}
+
+/* Info Grid */
+.info-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* Stacked info for cleaner look on right side */
+    gap: 30px;
+    text-align: left;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    padding-top: 30px;
+}
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.label {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #999;
+}
+
+.text {
+    font-size: 1rem;
+    color: var(--text-sub);
+    line-height: 1.6;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    .container {
+        gap: 60px;
+    }
+
+    /* Stack cards on mobile/tablet */
+    .card {
+        flex-direction: column;
+        max-width: 600px;
+        /* Constrain width on mobile */
+    }
+
+    .card-image-container {
+        width: 100%;
+        height: auto;
+        /* Allow height to adapt to image */
+        min-height: 0;
+        /* Override desktop min-height */
+        display: block;
+        /* Remove flex centering */
+        background-color: var(--bg-color);
+        /* Match image paper tone for seamless blend */
+    }
+
+    .card-image {
+        width: 100%;
+        height: auto;
+        /* Maintain aspect ratio */
+        object-fit: contain;
+        transform: scale(1.02);
+        /* Slight zoom to hide edges */
+    }
+
+    .card-content {
+        width: 100%;
+        padding: 40px 30px;
+    }
+
+    .card-title {
+        font-size: 2.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 40px 15px;
+    }
+
+    .card-content {
+        padding: 30px 20px;
+    }
+
+    .card-title {
+        font-size: 1.8rem;
+    }
+}
