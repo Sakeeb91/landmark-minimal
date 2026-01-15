@@ -118,6 +118,7 @@ header p {
     display: block;
     flex-direction: column;
     /* Align content to top */
+    overflow: hidden;
 }
 
 /* Title & Meta */
