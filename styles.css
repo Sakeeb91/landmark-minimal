@@ -87,8 +87,8 @@ header p {
     /* Match card background */
     width: 50%;
     /* Half width */
-    min-height: 500px;
-    /* Ensure substantial height */
+    height: 550px;
+    /* Fixed height for consistent card sizing */
     position: relative;
     overflow: hidden;
     display: flex;
