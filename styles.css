@@ -145,10 +145,18 @@ header p {
     display: grid;
     grid-template-columns: 1fr;
     /* Stacked info for cleaner look on right side */
-    gap: 30px;
+    gap: 20px;
     text-align: left;
     border-top: 1px solid rgba(0, 0, 0, 0.05);
-    padding-top: 30px;
+    padding-top: 20px;
+    overflow-y: auto;
+    /* Make scrollable when content overflows */
+    flex: 1;
+    /* Take remaining space */
+    min-height: 0;
+    /* Allow shrinking for flexbox */
+    scrollbar-width: thin;
+    scrollbar-color: var(--accent) transparent;
 }
 
 .info-item {
