@@ -236,3 +236,16 @@ header p {
         font-size: 1.8rem;
     }
 }
+/* Scrollbar styling for webkit browsers */
+.info-grid::-webkit-scrollbar {
+    width: 6px;
+}
+
+.info-grid::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.info-grid::-webkit-scrollbar-thumb {
+    background-color: var(--accent);
+    border-radius: 3px;
+}
