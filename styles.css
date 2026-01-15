@@ -112,7 +112,9 @@ header p {
 /* Content Section */
 .card-content {
     width: 50%;
-    padding: 60px;
+    height: 550px;
+    /* Match image container height */
+    padding: 40px 60px;
     display: block;
     flex-direction: column;
     /* Center content vertically */
