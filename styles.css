@@ -117,7 +117,7 @@ header p {
     padding: 40px 60px;
     display: block;
     flex-direction: column;
-    /* Center content vertically */
+    /* Align content to top */
 }
 
 /* Title & Meta */
