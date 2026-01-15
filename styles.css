@@ -60,7 +60,7 @@ header p {
 
 /* Card Component */
 .card {
-    background: var(--card-bg);
+    background: var(--bg-color);
     border-radius: 16px;
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.03);
     overflow: hidden;
@@ -82,8 +82,8 @@ header p {
 /* Image Section */
 /* Image Section */
 .card-image-container {
-    background-color: var(--card-bg);
-    /* Match card background */
+    background-color: var(--bg-color);
+    /* Match page background for seamless blend */
     width: 50%;
     /* Half width */
     height: 550px;
