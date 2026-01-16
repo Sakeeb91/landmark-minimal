@@ -18,11 +18,10 @@ const landmarks = {
         location: [41.403629, 2.174356],
         images: [
             'images/landmark-1.png',
-            'https://images.unsplash.com/photo-1583779457094-ab6f77f7bf57?w=1200', // Exterior facade
-            'https://images.unsplash.com/photo-1564509143564-fdce890c9eee?w=1200', // Interior columns
-            'https://images.unsplash.com/photo-1566522650166-bd8b3e3a2b4b?w=1200', // Ceiling details
-            'https://images.unsplash.com/photo-1562883676-8c7feb83f09b?w=1200', // Stained glass
-            'https://images.unsplash.com/photo-1539037116277-4db20889f2d4?w=1200'  // Towers
+            'https://images.unsplash.com/photo-1722863380905-539ae092fc5f?w=1200', // Spire with clock detail
+            'https://images.unsplash.com/photo-1511527661048-7fe73d85e9a4?w=1200', // Ornate facade daytime
+            'https://images.unsplash.com/photo-1735424325493-7dec695219c4?w=1200', // Interior stained glass
+            'https://images.unsplash.com/photo-1762882450546-208975b68ecf?w=1200'  // Interior columns & windows
         ]
     },
     'taj-mahal': {
