@@ -43,11 +43,10 @@ const landmarks = {
         location: [41.890210, 12.492231],
         images: [
             'images/landmark-colosseum.png',
-            'https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=1200', // Exterior day
-            'https://images.unsplash.com/photo-1555992828-ca4dbe41d294?w=1200', // Interior arena
-            'https://images.unsplash.com/photo-1604580864964-0462f5d5b1a8?w=1200', // Arches detail
-            'https://images.unsplash.com/photo-1569874861186-14568e8fb3cd?w=1200', // Night view
-            'https://images.unsplash.com/photo-1525874684015-58379d421a52?w=1200'  // Wide angle
+            'https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=1200', // Arena interior view
+            'https://images.unsplash.com/photo-1592881867427-6b07a9386bf2?w=1200', // Daytime exterior
+            'https://images.unsplash.com/photo-1707985664379-c0d3fe6c7608?w=1200', // Street view perspective
+            'https://images.unsplash.com/photo-1667328065719-77ee4f71ac0a?w=1200'  // Arches detail
         ]
     },
     'hagia-sophia': {
