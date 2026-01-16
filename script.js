@@ -79,11 +79,9 @@ const landmarks = {
         location: [-33.856784, 151.215297],
         images: [
             'images/landmark-sydney.png',
-            'https://images.unsplash.com/photo-1624138784614-87fd1b6528f8?w=1200', // Harbor view
-            'https://images.unsplash.com/photo-1530276371031-2511efff3d5d?w=1200', // Sails close-up
-            'https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?w=1200', // Sunset silhouette
-            'https://images.unsplash.com/photo-1528072164453-f4e8ef0d475a?w=1200', // Night view
-            'https://images.unsplash.com/photo-1523059623039-a9ed027e7fad?w=1200'  // Aerial view
+            'https://plus.unsplash.com/premium_photo-1697730221799-f2aa87ab2c5d?w=1200', // Aerial view with Harbour Bridge
+            'https://images.unsplash.com/photo-1624138784614-87fd1b6528f8?w=1200', // Harbor daytime
+            'https://images.unsplash.com/photo-1595740229246-cfdda61917c6?w=1200'  // Opera House in Australia
         ]
     }
 };
