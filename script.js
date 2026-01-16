@@ -55,11 +55,10 @@ const landmarks = {
         location: [41.008583, 28.980175],
         images: [
             'images/landmark-2.png',
-            'https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?w=1200', // Exterior with minarets
-            'https://images.unsplash.com/photo-1545459720-aae8c8a97cb4?w=1200', // Interior dome
-            'https://images.unsplash.com/photo-1570939274717-7eda259b50ed?w=1200', // Mosaics
-            'https://images.unsplash.com/photo-1621354159750-46dc90f97cec?w=1200', // Calligraphy detail
-            'https://images.unsplash.com/photo-1527838832700-5059252407fa?w=1200'  // Sunset exterior
+            'https://images.unsplash.com/photo-1527838700789-f9b453e73655?w=1200', // Exterior with minarets
+            'https://plus.unsplash.com/premium_photo-1678129531809-0b4c24671913?w=1200', // Interior ceiling
+            'https://plus.unsplash.com/premium_photo-1678652916853-13f3486a5539?w=1200', // Dome interior
+            'https://images.unsplash.com/photo-1621164870333-7931835f05de?w=1200'  // Full building view
         ]
     },
     'parthenon': {
