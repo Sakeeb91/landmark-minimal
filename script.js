@@ -67,11 +67,10 @@ const landmarks = {
         location: [37.971532, 23.725749],
         images: [
             'images/landmark-parthenon.png',
-            'https://images.unsplash.com/photo-1555993539-1732b0258235?w=1200', // Full view
-            'https://images.unsplash.com/photo-1603565816030-6b389eeb23cb?w=1200', // Columns detail
-            'https://images.unsplash.com/photo-1608730304284-79a72e3f48b8?w=1200', // Sunset view
-            'https://images.unsplash.com/photo-1604848698030-c434ba08ece1?w=1200', // Night illuminated
-            'https://images.unsplash.com/photo-1558619535-e7d3dcb7e391?w=1200'  // Athens panorama
+            'https://images.unsplash.com/photo-1603565816030-6b389eeb23cb?w=1200', // View from Filopappou hill
+            'https://images.unsplash.com/photo-1580940470227-739a2f0ab9f7?w=1200', // Sunset view
+            'https://images.unsplash.com/photo-1503152394-c571994fd383?w=1200', // Classic temple view
+            'https://plus.unsplash.com/premium_photo-1697730145706-6d4561c896dc?w=1200'  // Aerial night shot
         ]
     },
     'sydney-opera-house': {
