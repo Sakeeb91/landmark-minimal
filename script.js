@@ -6,11 +6,10 @@ const landmarks = {
         location: [48.852968, 2.349902],
         images: [
             'images/landmark-0.png',
-            'https://images.unsplash.com/photo-1478391679764-b2d8b3cd1e94?w=1200', // Exterior front
-            'https://images.unsplash.com/photo-1499856871958-5b9627545d1a?w=1200', // Paris cityscape with Notre Dame
-            'https://images.unsplash.com/photo-1568252542512-9fe8fe9c87bb?w=1200', // Rose window detail
-            'https://images.unsplash.com/photo-1550340499-a6c60fc8287c?w=1200', // Notre Dame side view
-            'https://images.unsplash.com/photo-1551866442-64e75e911c23?w=1200'  // Seine river view
+            'https://images.unsplash.com/photo-1565457211452-16f8e7062a0a?w=1200', // Cathedral front view
+            'https://images.unsplash.com/photo-1551120343-863a43d33990?w=1200', // Brown concrete exterior
+            'https://images.unsplash.com/photo-1642602453380-7754b2e53fa0?w=1200', // Cathedral with crowd
+            'https://images.unsplash.com/photo-1599457435394-63f83db8f0d6?w=1200'  // Interior gold & blue
         ]
     },
     'sagrada-familia': {
